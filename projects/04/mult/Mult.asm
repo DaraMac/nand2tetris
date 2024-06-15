@@ -1,9 +1,10 @@
 // Do multiplication by repeatedly adding one value and decrementing the other
 
-// Get value that will be added on
+// Get from memory the value that will be added on
 @R0
 D=M
 
+// Store it at @a
 @a
 M=D
 
@@ -12,6 +13,7 @@ M=D
 @R1
 D=M
 
+// Store it @n
 @n
 M=D
 
